@@ -1,0 +1,9 @@
+param=raw_input('enter a comma separated list to check whether sorted or not')
+listArr = param.split(',')
+inputList = [i for i in listArr] # creating a list for sort function
+paramList = [i for i in listArr] # creating a list for original for sort function
+inputList.sort()
+if paramList == inputList:
+ print('True')
+else:
+ print('False')
