@@ -1,0 +1,17 @@
+id = raw_input("Enter a Student ID: ")
+
+name= raw_input("Enter a Student Name: ")
+
+major= raw_input("Enter a Student Major: ")
+
+
+
+print("Student ID:")
+
+print(id)
+print("Student Name:")
+
+print(name)
+print("Student Major:")
+
+print(major)
