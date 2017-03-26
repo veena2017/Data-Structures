@@ -1,0 +1,8 @@
+stringtoPrint = "Everyone should know how to program a computer, because it teaches you how to think! Steve Jobs"
+strarr = stringtoPrint.split() #split string into a list
+
+i = 0
+while i < len(strarr):
+    temp = strarr[i]
+    print(temp)
+    i += 1
