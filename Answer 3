@@ -1,0 +1,5 @@
+id = raw_input("Enter a String to find out the length: ")
+
+print("The length of the string you have entered is:",len(id))
+
+print(is_vowel(input))
