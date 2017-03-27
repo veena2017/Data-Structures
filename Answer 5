@@ -1,0 +1,14 @@
+List:
+Like a string, a list is a sequence of values. In a string, the values are characters; in a list, they can be any type. The values in a list are called elements or sometimes items.
+
+example:
+this_list = ['a', 'e', 'i', 'o', 'u']
+my_list = [1:'a', 2:'e', 3:'i', 4:'o', 5:'u']
+
+
+Dictionary:
+A dictionary is like a list, but more general. In a list, the indices have to be integers; in a dictionary they can be (almost) any type.
+A dictionary contains a collection of indices, which are called keys, and a collection of values. Each key is associated with a single value. The association of a key and a value is called a key-value pair or sometimes an item.
+
+Example:
+my_dict = ['Name': 'Veena', 'Course': 610, 'University': 'HU']
