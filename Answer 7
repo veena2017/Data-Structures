@@ -1,0 +1,11 @@
+course = raw_input("Enter a course to check if it is registered: ")
+
+registered_courses = ("CISC 120", "CISC 225", "CISC 233")
+
+def find_it(course):   
+if course in registered_courses:        
+print('True')    
+else:        
+print('False')
+
+find_it(course)
